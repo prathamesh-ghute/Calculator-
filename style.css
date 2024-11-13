@@ -1,0 +1,104 @@
+
+.cal{
+    
+    height: 600px;
+    width: 500px;
+    border: 2px solid black;
+    background-color: rgb(33, 31, 34);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+
+.hed{
+    height: 72px;
+    width: 499px;
+    background-color: rgb(33, 31, 34);
+}
+
+.plate{
+
+    height: 100px;
+    width: 495px;
+    background-color:rgb(33, 31, 34);
+    display: flex;
+    justify-content: flex-end;
+    
+    
+
+}
+
+#input{
+    height: 95px;
+    width: 496.5px;
+    background-color: rgb(33, 31, 34);
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    border: 3px solid rgb(33, 31, 34);
+    color: white;
+    font-size:x-large;
+    font-weight:900;
+}
+
+#input:hover{
+    border: 3px solid white;
+
+}
+#input:checked{
+    border: 3px solid white;
+
+}
+.l0,.l1,.l2,.l3,.l4{
+    height: 84px;
+    width: 499px;
+    background-color: rgb(33, 31, 34);
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.l00 ,.l11,.l22,.l33,.l44 {
+    height: 79px;
+    width: 499px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(102, 98, 98);
+    margin: 2px;
+    justify-content: center;
+    user-select: none;
+    caret-color: transparent;
+    
+
+
+}
+h1{
+    text-align: center;
+    color: white;
+    
+}
+i{
+    color: none !important;
+    display: none;
+
+}
+
+
+ .l00:hover ,.l11:hover,.l22:hover,.l33:hover,.l44:hover{
+    background-color:rgb(146, 143, 143);
+    
+}
+
+
+#ans{
+    background-color: rgb(83, 170, 237);
+    
+}
