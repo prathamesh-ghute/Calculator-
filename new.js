@@ -23,6 +23,7 @@ document.getElementById("sub").onclick = () => addToDisplay("-");
 document.getElementById("mul").onclick = () => addToDisplay("*");
 document.getElementById("divison").onclick = () => addToDisplay("/");
 document.getElementById("ans").onclick = () => calculate();
+document.getElementById("dblzero").onclick = () => addToDisplay("00");
 
 // Optional: You can add functionality for percentage and plus-minus if needed
 

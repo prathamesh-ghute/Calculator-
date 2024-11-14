@@ -1,4 +1,4 @@
-//// it's the incomplete code 
+//// it's the incomplete code
 
 
 let one = document.querySelector("#one");
